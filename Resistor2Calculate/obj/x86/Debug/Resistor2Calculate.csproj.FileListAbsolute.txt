@@ -1,0 +1,8 @@
+C:\Users\Hannes\Desktop\Resistor2Calculate\Resistor2Calculate\bin\Debug\Resistor2Calculate.exe
+C:\Users\Hannes\Desktop\Resistor2Calculate\Resistor2Calculate\bin\Debug\Resistor2Calculate.pdb
+C:\Users\Hannes\Desktop\Resistor2Calculate\Resistor2Calculate\obj\x86\Debug\Resistor2Calculate.csprojResolveAssemblyReference.cache
+C:\Users\Hannes\Desktop\Resistor2Calculate\Resistor2Calculate\obj\x86\Debug\Resistor2Calculate.Form1.resources
+C:\Users\Hannes\Desktop\Resistor2Calculate\Resistor2Calculate\obj\x86\Debug\Resistor2Calculate.Properties.Resources.resources
+C:\Users\Hannes\Desktop\Resistor2Calculate\Resistor2Calculate\obj\x86\Debug\Resistor2Calculate.csproj.GenerateResource.Cache
+C:\Users\Hannes\Desktop\Resistor2Calculate\Resistor2Calculate\obj\x86\Debug\Resistor2Calculate.exe
+C:\Users\Hannes\Desktop\Resistor2Calculate\Resistor2Calculate\obj\x86\Debug\Resistor2Calculate.pdb

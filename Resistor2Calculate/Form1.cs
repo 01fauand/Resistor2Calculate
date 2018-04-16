@@ -15,5 +15,11 @@ namespace Resistor2Calculate
         {
             InitializeComponent();
         }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            pictureBox1.Show == true;
+            pictureBox2.Show == false;
+        }
     }
 }

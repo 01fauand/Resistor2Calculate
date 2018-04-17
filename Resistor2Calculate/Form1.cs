@@ -11,8 +11,8 @@ namespace Resistor2Calculate
 {
     public partial class Form1 : Form
     {
-        
-        bool parallelseriel=true;
+
+        bool parallelseriel = true;
 
         public Form1()
         {
@@ -26,7 +26,7 @@ namespace Resistor2Calculate
             berechnung.setRes2(Convert.ToInt32(textBox2.Text));
             berechnung.setParaSer(parallelseriel);
 
-            textBox3.Text = Convert.ToString(berechnung.getResistance());           
+            textBox3.Text = Convert.ToString(berechnung.getResistance());
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
@@ -48,5 +48,15 @@ namespace Resistor2Calculate
             pictureBox1.Visible = false;
             pictureBox2.Visible = false;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            DialogResult beenden = MessageBox.Show("Willst du wirklich beenden?", "Program beenden", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (beenden == DialogResult.Yes)
+            {
+                this.Close();
+            }
+        }
+
     }
 }

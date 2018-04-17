@@ -40,6 +40,7 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -69,9 +70,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(444, 391);
+            this.button1.Location = new System.Drawing.Point(318, 375);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(182, 60);
+            this.button1.Size = new System.Drawing.Size(155, 48);
             this.button1.TabIndex = 2;
             this.button1.Text = "Berechnen";
             this.button1.UseVisualStyleBackColor = true;
@@ -152,11 +153,22 @@
             this.pictureBox2.TabIndex = 10;
             this.pictureBox2.TabStop = false;
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(532, 377);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(155, 46);
+            this.button2.TabIndex = 11;
+            this.button2.Text = "Beenden";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(718, 480);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBox3);
@@ -191,6 +203,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.Button button2;
     }
 }
 
